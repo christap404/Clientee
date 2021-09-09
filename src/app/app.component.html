@@ -1,0 +1,53 @@
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+<header>
+  <div class="container justify-content-center">
+    <ul style=" margin-left: 387px;">
+      <li><a [routerLink]="['/inicio']" [routerLinkActive]="['router-link-active']" >Inicio</a></li>
+      <li><a [routerLink]="['/productos']" [routerLinkActive]="['router-link-active']">Productos</a></li>
+      <li class="logo"><a href="#">A&V SPORTS WEAR</a></li>
+      <!-- <li class="logo"><img src="../assets/img/LOGO/only logo blanco.png"></li> -->
+      <li><a [routerLink]="['/novedades']" [routerLinkActive]="['router-link-active']">Novedades</a></li>
+      <li><a [routerLink]="['/favoritos']" [routerLinkActive]="['router-link-active']">Favoritos</a></li>
+    </ul>
+  </div>
+</header>
+
+<body>
+
+  <section id="content">
+    <router-outlet></router-outlet>
+
+
+
+
+  </section>
+
+
+
+</body>
+
+<footer style="border: solid;">
+
+  <div id="" class="row justify-content-between">
+
+    <div  class="col-3">
+      <img id=""  src="../assets/img/iconoinsta.png" alt="Instagram">
+    </div>
+
+    <div class="col-3">
+      <img  id="" src="../assets/img/facebook_logo_icon_147291.png" alt="Facebook">
+    </div>
+
+    <div id="" class="col-3" >
+      <a  id="" title="Los Tejos" href="https://wa.link/ye1oaq"><img src="../assets/img/icono-wp.png" alt="WP" /></a>
+    </div>
+
+  </div>
+
+
+
+</footer>
+
+
