@@ -11,34 +11,29 @@
   </div>
 
 
-  <div class="row " style="padding-top: 48px; margin-left: -45px;">
-    <div class="col-3 " id="filtro">
-      <div class=" " id="wrapper" style="margin-left: 79px ">
+  <div class="row" style="padding-top: 48px; margin-left: -45px; ">
+    <div class="col-3" id="filtro">
+      <div class=" " id="wrapper" style="margin-left: 79px;">
         <!-- Sidebar-->
         <div class="justify-content-center" id="sidebar-wrapper">
           <div class="sidebar-heading border-bottom " style="" >Filtrar por</div>
 
-
-
-            Talla: <br>
+            
             <!-- Example single danger button -->
-            <div class="btn-group">
-              <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                Talla
-              </button>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="">S</a></li>
-                <li><a class="dropdown-item" href="">M</a></li>
-                <li><a class="dropdown-item" href="">L</a></li>
-                <li><a class="dropdown-item" href="">XL</a></li>
-              </ul>
-            </div>
+            <select style="margin-bottom: 20px;" class="form-select" aria-label="Default select example">
+              <option style="font-size: 20px;" selected>TALLA</option>
+              <option value="1">S</option>
+              <option value="2">M</option>
+              <option value="3">L</option>
+              <option value="3">XL</option>
+            </select>
 
             <!--Filtro de color-->
-            <div class="">
-              Color <br>
+            
+            
+
               <div class="btn-group">
-                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
+                <button  style="" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   Color
                 </button>
@@ -50,42 +45,24 @@
                   <li><a class="dropdown-item" style="background-color: purple; color: white;" href=""> Morado </a> </li>
                 </ul>
               </div>
-            </div>
+            
+            
 
             <!--Filtro de tipo-->
-            <div class="">
-              Tipo <br>
-              <div class="btn-group">
-                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  Tipo
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="">Camisas</a> </li>
-                  <li><a class="dropdown-item" href="">Pantalonetas</a> </li>
-                  <li><a class="dropdown-item" href="">Sudaderas</a> </li>
-                  <li><a class="dropdown-item" href="">Buzos</a></li>
-
-                </ul>
-              </div>
-            </div>
+            <select style=" margin-top: 20px; margin-bottom: 20px;" class="form-select" aria-label="Default select example">
+              <option style="font-size: 20px;" selected>TIPO</option>
+              <option value="1">Camisas</option>
+              <option value="2">Pantalonetas</option>
+              <option value="3">Sudaderas</option>
+              <option value="3">Buzos</option>
+            </select>
 
             <!--Filtro de Genero-->
-            <div class="">
-              Género: <br>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault">
-                  Hombres
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                <label class="form-check-label" for="flexCheckChecked">
-                  Mujeres
-                </label>
-              </div>
-            </div>
+            <select style="" class="form-select" aria-label="Default select example">
+              <option style="font-size: 20px;" selected>GENERO</option>
+              <option value="1">Mujer</option>
+              <option value="1">Hombre</option>
+            </select>
 
         </div>
       </div>
